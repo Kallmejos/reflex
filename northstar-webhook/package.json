@@ -1,0 +1,20 @@
+{
+  "name": "northstar-webhook",
+  "version": "1.0.0",
+  "description": "Northstar webhook verification prototype using HMAC-SHA256",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webhook",
+    "hmac",
+    "security"
+  ],
+  "author": "Abraham Josiah",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
