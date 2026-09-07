@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflex - Dispatcher Dashboard</title>
+    <link rel="stylesheet" href="dispatcher.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Reflex Dispatcher</h1>
+        <p class="subtitle">Delivery Management Dashboard</p>
+
+        <section class="summary">
+
+    <div class="summary-card">
+        <h3>Created</h3>
+        <p id="createdDeliveries">0</p>
+    </div>
+
+    <div class="summary-card">
+        <h3>Assigned</h3>
+        <p id="assignedDeliveries">0</p>
+    </div>
+
+    <div class="summary-card">
+        <h3>Picked Up</h3>
+        <p id="pickedUpDeliveries">0</p>
+    </div>
+
+    <div class="summary-card">
+        <h3>Delivered</h3>
+        <p id="deliveredDeliveries">0</p>
+    </div>
+
+</section>
+
+<section class="summary">
+
+    <div class="summary-card">
+        <h3>Available Riders</h3>
+        <p id="availableRiders">0</p>
+    </div>
+
+</section>
+
+        <h2>Deliveries</h2>
+
+        <div id="deliveries">
+            Loading deliveries...
+        </div>
+
+    </main>
+
+    <script src="dispatcher.js"></script>
+
+</body>
+</html>

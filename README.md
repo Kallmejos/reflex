@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reflex — Delivery Management & Verification System
 
 A Node.js/Express + SQLite prototype for controlled delivery handoffs.
@@ -55,3 +56,7 @@ SQLite is suitable for this prototype, but production deployment should use a pe
 ## Demo riders
 John Kamau — FL-017 — KDA 123A
 Mary Wanjiku — FL-023 — KDB 456B
+=======
+# abraham_josiah
+
+>>>>>>> 9892a47b7a743100800142c4e22fea673f889122

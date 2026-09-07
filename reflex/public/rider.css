@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.delivery-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.pickup-section {
+    margin-top: 20px;
+}
+
+.pickup-section input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.pickup-section button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pickup-section p {
+    font-weight: bold;
+}
+.otp-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.otp-section input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.otp-section button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.otp-section p {
+    font-weight: bold;
+}
